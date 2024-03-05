@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.269);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+
+  .left-navbar {
+    img {
+      width: 198px;
+      height: 40px;
+      @include mobile {
+        width: 150px;
+      }
+    }
+  }
+  .right-navbar {
+    display: flex;
+    gap: 20px;
+    @include mobile {
+      display: none;
+    }
+    a {
+      color: rgba(128, 128, 128, 0.753);
+      font-size: 18px;
+
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+  a:nth-child(1) {
+    color: black;
+  }
+}

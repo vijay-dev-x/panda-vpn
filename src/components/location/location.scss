@@ -1,0 +1,115 @@
+@import "../../App.scss";
+.location {
+  max-width: 1140px;
+  margin: 10em auto;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 20px;
+    @include mobile {
+      flex-direction: column;
+      padding: 0px 15px;
+    }
+    P {
+      color: #7f7f7f;
+      font-size: 15px;
+      line-height: 20px;
+      @include mobile {
+        font-size: 14px;
+      }
+    }
+
+    .img {
+      width: 50%;
+      display: flex;
+      justify-content: end;
+      // border: 2px solid red;
+      @include mobile {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        // border: 2px solid blue;
+      }
+    }
+    .data {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      // border: 2px solid red;
+      @include mobile {
+        width: 100%;
+        gap: 1em;
+      }
+
+      h1 {
+        line-height: 1.5; /* Adjust the line height to your desired value */
+        font-size: 36px;
+        br {
+          @include mobile {
+            display: none;
+          }
+        }
+        @include mobile {
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+
+      button {
+        width: 32%;
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(71, 185, 109);
+        @include mobile {
+          margin-top: 1em;
+          width: 100%;
+        }
+      }
+    }
+  }
+  // features----
+  .features {
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+    margin: 5em 0;
+    @include mobile {
+      flex-direction: column;
+      padding: 0 15px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8em;
+      img {
+        width: 80px;
+        @include mobile {
+          margin: auto;
+        }
+      }
+      h2 {
+        font-size: 18px;
+        @include mobile {
+          text-align: center;
+          font-size: 16px;
+        }
+      }
+      p {
+        color: #7f7f7f;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}

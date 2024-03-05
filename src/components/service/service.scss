@@ -1,0 +1,56 @@
+@import "../../App.scss";
+.service {
+  max-width: 1140px;
+  margin: 5em auto;
+  overflow: hidden;
+
+  h1 {
+    margin-bottom: 70px;
+    font-size: 36px;
+    text-align: center;
+    @include mobile {
+      font-size: 22px;
+    }
+  }
+  .service-box {
+    display: flex;
+    gap: 1.2em;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  .box {
+    height: 450px;
+    width: 350px;
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .image-box {
+    img {
+      //   height: 360px;
+      //   width: 280px;
+      border: 2px solid red;
+    }
+  }
+  .text-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h2 {
+      font-size: 18px;
+      line-height: 22px;
+
+      @include mobile {
+        text-wrap: wrap;
+        font-size: 20px;
+      }
+    }
+    p {
+      font-size: 14px;
+      color: #7f7f7f;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,142 @@
+@import "../../App.scss";
+
+.hero {
+  position: relative;
+  //   background-color: red;
+  background-color: #f2f4f7;
+  height: 100vh;
+  overflow: hidden;
+
+  .wrapper {
+    max-width: 1140px;
+    display: flex;
+    margin: 5em auto;
+    padding-top: 20px;
+    padding: 0px 10px; // align-items: center;
+    // border: 2px solid red;
+  }
+  .left-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
+    @include mobile {
+      // border: 2px solid red;
+      width: 100%;
+      gap: 1.2em;
+    }
+  }
+
+  .money-back {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    p {
+      color: rgba(128, 128, 128, 0.806);
+      @include mobile {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+    }
+    img {
+      @include mobile {
+        width: 30px;
+      }
+    }
+  }
+
+  .h2 h2 {
+    font-size: 46px;
+    font-weight: 800;
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+  .button {
+    display: flex;
+    gap: 30px;
+    // border: 2px solid red;
+    @include mobile {
+      gap: 20px;
+
+      flex-direction: column;
+      width: 100%;
+    }
+    button {
+      padding: 20px 50px;
+      border-radius: 30px;
+      background-color: #47b96d;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      border: none;
+      outline: none;
+      @include mobile {
+        gap: 1.5em;
+        padding: 18px;
+        width: 60%;
+      }
+    }
+    button:nth-child(2) {
+      background-color: transparent;
+      border: 1px solid rgba(128, 128, 128, 0.283);
+      color: black;
+    }
+  }
+
+  .p p {
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.699);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    @include mobile {
+      margin-top: 0px;
+
+      font-size: 12px;
+    }
+  }
+  .right-hero {
+    width: 50%;
+    bottom: 200px;
+    right: 40px;
+
+    position: absolute;
+    @include mobile {
+      width: 20%;
+      bottom: 50px;
+      right: 100px;
+    }
+    img {
+      z-index: -2;
+
+      width: 500px;
+      @include mobile {
+        width: 200px;
+        bottom: 300px;
+      }
+    }
+  }
+
+  .hero-bg {
+    position: absolute;
+    bottom: 0;
+    img {
+      //   background-size: contain;
+      //   background-position: center;
+
+      @include mobile {
+        background-size: contain;
+        background-position: left;
+      }
+    }
+  }
+  .hero-bottom-line {
+    img {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 10px;
+    }
+  }
+}
