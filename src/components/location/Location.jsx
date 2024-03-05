@@ -8,7 +8,10 @@ export default function Location() {
           <img src="../../../public/loaction-world.png" alt="" />
         </div>
         <div className="data">
-          <h1>Enjoy fast and stable connection anywhere, anytime</h1>
+          <h1>
+            Enjoy fast and stable connection <br />
+            anywhere, anytime
+          </h1>
           <p>
             The internet is slow and unbearable? Don't worry. PandaVPN currently
             supports over 3000 servers in 170 VPN server locations in 80
