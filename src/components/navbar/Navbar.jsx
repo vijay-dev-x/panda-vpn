@@ -16,9 +16,11 @@ export default function Navbar() {
         <a href="">Sign in</a>
       </div>
 
-      <p className="hamburger">
-        <RxHamburgerMenu></RxHamburgerMenu>
-      </p>
+      <div className="hamburger">
+        <p>
+          <RxHamburgerMenu></RxHamburgerMenu>
+        </p>
+      </div>
     </div>
   );
 }
