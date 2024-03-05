@@ -9,7 +9,7 @@ export default function () {
       <div className="wrapper">
         <div className="left-hero">
           <div className="money-back">
-            <img src="../../../public/money-back.png" alt="" />
+            <img src="/money-back.png" alt="" />
             <p>7-day money-back guarantee</p>
           </div>
           <div className="h2">
@@ -28,14 +28,14 @@ export default function () {
           </div>
         </div>
         <div className="right-hero">
-          <img src="../../../public/hero-right.png" alt="" />
+          <img src="/hero-right.png" alt="" />
         </div>
       </div>
       <div className="hero-bg">
-        <img src="../../../public/hero-bottom.png" alt="" />
+        <img src="/hero-bottom.png" alt="" />
       </div>
       <div className="hero-bottom-line">
-        <img src="../../../public/hero-bottom-line.svg" alt="" />
+        <img src="/hero-bottom-line.svg" alt="" />
       </div>
     </div>
   );
