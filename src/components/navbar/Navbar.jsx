@@ -1,5 +1,7 @@
 import React from "react";
 import "./navbar.scss";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -13,6 +15,10 @@ export default function Navbar() {
         <a href="">Help center</a>
         <a href="">Sign in</a>
       </div>
+
+      <p className="hamburger">
+        <RxHamburgerMenu></RxHamburgerMenu>
+      </p>
     </div>
   );
 }

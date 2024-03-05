@@ -31,9 +31,8 @@
       }
 
       img {
-        width: 100%;
-        height: 100%;
-        // border: 2px solid blue;
+        width: 80%;
+        margin-right: 30px;
       }
     }
     .data {
@@ -71,6 +70,7 @@
         color: white;
         font-weight: bold;
         background-color: rgb(71, 185, 109);
+        cursor: pointer;
         @include mobile {
           margin-top: 1em;
           width: 100%;

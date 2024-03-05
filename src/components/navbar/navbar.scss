@@ -12,7 +12,23 @@
   position: fixed;
   overflow: hidden;
   z-index: 999;
+  position: relative;
+  .hamburger {
+    font-size: 1.2em;
+    position: absolute;
+    right: 10px;
+    color: black;
+    display: none;
+    cursor: pointer;
 
+    @include mobile {
+      display: inline;
+    }
+    p {
+      font-size: 50px;
+      color: black;
+    }
+  }
   .left-navbar {
     img {
       width: 198px;
