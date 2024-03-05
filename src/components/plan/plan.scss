@@ -26,6 +26,9 @@
       display: flex;
       justify-content: end;
       margin-bottom: 20px;
+      @include mobile {
+        padding: 0px 15px;
+      }
 
       .middle-content {
         display: flex;
@@ -42,7 +45,7 @@
         @include mobile {
           left: 0px;
           width: 90%;
-          padding: 15px 0px;
+          padding: 15px 15px;
           margin: 2em 0;
         }
         P {
