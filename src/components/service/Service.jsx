@@ -8,7 +8,7 @@ export default function Service() {
       <div className="service-box">
         <div className="box">
           <div className="img-box">
-            <img src="../../../public/service1.png" alt="" />
+            <img src="/service1.png" alt="" />
           </div>
           <div className="text-box">
             <h2>
@@ -23,7 +23,7 @@ export default function Service() {
         </div>
         <div className="box">
           <div className="img-box">
-            <img src="../../../public/sevice2.png" alt="" />
+            <img src="/sevice2.png" alt="" />
           </div>
           <div className="text-box">
             <h2>
@@ -39,7 +39,7 @@ export default function Service() {
         </div>
         <div className="box">
           <div className="img-box">
-            <img src="../../../public/service3.png" alt="" />
+            <img src="/service3.png" alt="" />
           </div>
           <div className="text-box">
             <h2>

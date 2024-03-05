@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div className="payment">
             <h2>Payment Method</h2>
-            <img src="../../../public/payment.png" alt="" />
+            <img src="/payment.png" alt="" />
           </div>
         </div>
         <div className="footer-col">

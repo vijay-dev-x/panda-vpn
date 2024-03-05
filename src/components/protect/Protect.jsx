@@ -5,7 +5,7 @@ export default function Protect() {
     <div className="protect">
       <div className="wrapper">
         <div className="protect-img">
-          <img src="../../../public/protect-m.png" alt="" />
+          <img src="/protect-m.png" alt="" />
         </div>
         <div className="protect-data">
           <div className="h1">
@@ -22,27 +22,27 @@ export default function Protect() {
           </div>
           <div className="logo">
             <div className="logo-box">
-              <img src="../../../public/protect1.png" alt="" />
+              <img src="/protect1.png" alt="" />
               <p>Windows</p>
             </div>
             <div className="logo-box">
-              <img src="../../../public/protect2.png" alt="" />
+              <img src="/protect2.png" alt="" />
               <p>Mac</p>
             </div>
             <div className="logo-box">
-              <img src="../../../public/protect3.png" alt="" />
+              <img src="/protect3.png" alt="" />
               <p>ios</p>
             </div>
             <div className="logo-box">
-              <img src="../../../public/protect4.png" alt="" />
+              <img src="/protect4.png" alt="" />
               <p>Android</p>
             </div>
             <div className="logo-box">
-              <img src="../../../public/protect5.png" alt="" />
+              <img src="/protect5.png" alt="" />
               <p>Linux</p>
             </div>
             <div className="logo-box">
-              <img src="../../../public/protect6.png" alt="" />
+              <img src="/protect6.png" alt="" />
               <p>Android TV</p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Protect() {
       {/* features box----------- */}
       <div className="features">
         <div className="features-box">
-          <img src="../../../public/features1.png" alt="" />
+          <img src="/features1.png" alt="" />
           <h2>Ultra-fast servers</h2>
           <p>
             All of the servers have implemented patented acceleration
@@ -60,7 +60,7 @@ export default function Protect() {
           </p>
         </div>
         <div className="features-box">
-          <img src="../../../public/features2.png" alt="" />
+          <img src="/features2.png" alt="" />
           <h2>Truly no logs policy</h2>
           <p>
             PandaVPN strictly implements no logs policy to ensure that all data
@@ -69,7 +69,7 @@ export default function Protect() {
           </p>
         </div>
         <div className="features-box">
-          <img src="../../../public/features3.png" alt="" />
+          <img src="/features3.png" alt="" />
           <h2>The highest level of ECC encryption</h2>
           <p>
             All of your Internet access can be protected through our highest

@@ -15,7 +15,7 @@ export default function Banner() {
           <button>GET Now</button>
         </div>
         <div className="banner-right">
-          <img src="../../../public/banner-right.png" alt="" />
+          <img src="/banner-right.png" alt="" />
         </div>
       </div>
     </div>

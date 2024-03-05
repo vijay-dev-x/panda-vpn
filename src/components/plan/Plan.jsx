@@ -11,13 +11,13 @@ export default function Plan() {
         </div>
         <div className="middle">
           <div className="middle-content">
-            <img src="../../../public/plan-middle.png" alt="" />
+            <img src="/plan-middle.png" alt="" />
             <p>Customize Multiple Devices</p>
           </div>
         </div>
         <div className="plan-list">
           <div className="box">
-            <img src="../../../public/plan-list-1.png" alt="" />
+            <img src="/plan-list-1.png" alt="" />
             <div className="data">
               <p>12 Months</p>
               <p>+12 month free</p>
@@ -29,7 +29,7 @@ export default function Plan() {
             </div>
           </div>
           <div className="box">
-            <img src="../../../public/plan-list-2.png" alt="" />
+            <img src="/plan-list-2.png" alt="" />
             <div className="data">
               <p>6 Months</p>
               <p>+6 month free</p>
@@ -41,7 +41,7 @@ export default function Plan() {
             </div>
           </div>
           <div className="box">
-            <img src="../../../public/plan-list-3.png" alt="" />
+            <img src="/plan-list-3.png" alt="" />
             <div className="data">
               <p>3 Months</p>
               <p>&nbsp;</p>
@@ -53,7 +53,7 @@ export default function Plan() {
             </div>
           </div>
           <div className="box">
-            <img src="../../../public/plan-list-4.png" alt="" />
+            <img src="/plan-list-4.png" alt="" />
             <div className="data">
               <p>12 Months</p>
               <p>&nbsp;</p>
