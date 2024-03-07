@@ -13,6 +13,9 @@
   overflow: hidden;
   z-index: 999;
   position: relative;
+  @include mobile {
+    height: 45px;
+  }
   .hamburger {
     font-size: 1.2em;
     position: absolute;

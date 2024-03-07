@@ -6,6 +6,9 @@
   background-color: #f2f4f7;
   height: 100vh;
   overflow: hidden;
+  @include mobile {
+    height: 85vh;
+  }
 
   .wrapper {
     max-width: 1140px;
